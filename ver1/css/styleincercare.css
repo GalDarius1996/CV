@@ -1,0 +1,87 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    display:inline-flex;
+    grid-template-columns: 1fr 2fr;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper>div:nth-child(odd){
+    position:50px;
+    background: rgb(17, 17, 138);
+    padding: 40px;
+    color: aliceblue;
+}
+
+.wrapper>:nth-child(even){
+    position:relative;
+    background: white;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+.language .percent div{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    background-color: deepskyblue;
+}
+img{
+    border-radius: 50%;
+}
+h6{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+h5  {  
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+}
+.Skill .percent{
+    position:relative;
+    width: 100%;
+    height:6px;
+    background-color: black;
+    display:block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.Skill .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: deepskyblue;
+}
+h2{
+    margin-left: 20px;
+}
+.Hobby{
+    padding: 15px;
+}

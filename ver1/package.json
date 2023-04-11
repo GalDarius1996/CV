@@ -1,0 +1,19 @@
+{
+  "name": "ver1",
+  "version": "2.6.8",
+  "description": "CV - My 1st project as a student.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies":{
+  "bootstrap": "^5.2.3"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "author": "GAD",
+  "license": "MIT"
+}
